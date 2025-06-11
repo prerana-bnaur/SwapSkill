@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SwapSkill</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Montserrat', sans-serif;
+      background-color: #000000;
+      color: #ffffff;
+    }
+
+    header {
+      background-color: #6c5ce7;
+      padding: 1rem 2rem;
+      text-align: center;
+      color: white;
+      font-size: 2rem;
+      font-weight: bold;
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      padding: 3rem 1rem;
+      gap: 2rem;
+    }
+
+    .card {
+      background: #1c1c1e;
+      border-radius: 1rem;
+      box-shadow: 0 4px 12px rgba(255, 255, 255, 0.05);
+      padding: 2rem;
+      text-align: center;
+      width: 260px;
+      cursor: pointer;
+      transition: transform 0.2s ease, background-color 0.3s ease;
+      text-decoration: none;
+      color: white;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+      background-color: #2d2d30;
+    }
+
+    .card h3 {
+      margin-bottom: 1rem;
+      color: #a29bfe;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.9rem;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <b>SwapSkill</b>
+  </header>
+  <div class="container">
+    <a href="mentor.html" class="card">
+      <h3>Become a Mentor</h3>
+      <p>Share your expertise and help others grow.</p>
+    </a>
+    <a href="learner.html" class="card">
+      <h3>Find a Skill</h3>
+      <p>Connect with mentors to level up your skills.</p>
+    </a>
+    <a href="community.html" class="card">
+      <h3>Join the Community</h3>
+      <p>Engage with learners and mentors from all fields.</p>
+    </a>
+  </div>
+  <footer>
+    &copy; 2025 SwapSkill. All rights reserved.
+  </footer>
+</body>
+</html>
